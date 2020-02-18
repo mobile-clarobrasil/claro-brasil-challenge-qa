@@ -20,8 +20,8 @@ Requisitos do Projeto
 #### Aplicações
 
  - Web: http://automationpractice.com/
- - Android: app-android-calculator.apk
- - iOS: SimpleCalculator.ipa
+ - Android: app-android-calculator.apk [download](https://drive.google.com/file/d/10qFe7tDa11Je_ziGSHwcdBKf1Ng8Aa7K/view?usp=sharing)
+ - iOS: SimpleCalculator.ipa [download](https://drive.google.com/file/d/1ctB1SECbQh-fBO8j_x1vMveOoytqj0ub/view?usp=sharing)
 
 #### Funcionalidades teste Web
 
