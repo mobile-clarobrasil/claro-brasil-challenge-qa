@@ -38,13 +38,13 @@ public class ChallengeAutomatedTests {
 
 	@Test
 	@Order(1)
-	public void RealizarCadastro() throws Exception {
+	public void createAccount() throws Exception {
 		try {
 			// BrowserStack Setting name of test
 			// JavascriptExecutor jse = (JavascriptExecutor) browser;
 			// jse.executeScript(
 			// "browserstack_executor: {\"action\": \"setSessionName\", \"arguments\":
-			// {\"name\":\" Challenge RealizarCadastro \" }}");
+			// {\"name\":\" Challenge createAccount \" }}");
 
 			// test will fail if run lasts more than 5 minutes
 			Assertions.assertTimeoutPreemptively(Duration.ofMinutes(5), () -> {
@@ -74,7 +74,7 @@ public class ChallengeAutomatedTests {
 			// "browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\":
 			// {\"status\":\"failed\"}}");
 
-			System.out.println("Error Teste RealizarCadastro: " + e.getMessage());
+			System.out.println("Error on Test createAccount: " + e.getMessage());
 
 			assertTrue(false);
 		}
@@ -83,13 +83,13 @@ public class ChallengeAutomatedTests {
 
 	@Test
 	@Order(2)
-	public void RealizarLogin() throws Exception {
+	public void doLogin() throws Exception {
 		try {
 			// BrowserStack Setting name of test
 			// JavascriptExecutor jse = (JavascriptExecutor) browser;
 			// jse.executeScript(
 			// "browserstack_executor: {\"action\": \"setSessionName\", \"arguments\":
-			// {\"name\":\" Challenge RealizarLogin \" }}");
+			// {\"name\":\" Challenge doLogin \" }}");
 
 			// test will fail if run lasts more than 5 minutes
 			Assertions.assertTimeoutPreemptively(Duration.ofMinutes(5), () -> {
@@ -118,7 +118,7 @@ public class ChallengeAutomatedTests {
 			// "browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\":
 			// {\"status\":\"failed\"}}");
 
-			System.out.println("Error Teste RealizarLogin: " + e.getMessage());
+			System.out.println("Error on Test doLogin: " + e.getMessage());
 
 			assertTrue(false);
 		}
